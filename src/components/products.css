@@ -1,0 +1,15 @@
+.products
+{
+    border: 1px solid black;
+    display: inline-block;
+    width: 240px;
+    height: 320px;
+    margin: 5px 7px;
+    border-radius: 4px;
+
+}
+
+.product img{
+    width: 180px;
+    height: 180px;
+}

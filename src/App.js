@@ -2,7 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar';
 import Footer from './footer';
-import QuanityPicker from './quanityPicker';
+import Catalog from './pages/catalog';
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.min.js"
+
+
 
 function App() {
   return (
@@ -10,7 +14,8 @@ function App() {
      <h1> Dave is using react</h1>
     <Navbar></Navbar>
     <Footer></Footer>
-    <QuanityPicker></QuanityPicker>
+    <Catalog></Catalog>
+    
     </div>
   );
 }
