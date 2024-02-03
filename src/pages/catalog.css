@@ -1,0 +1,33 @@
+/* App.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: yellow;
+    color: red; /* Set text color to red */
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .products-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .products {
+    border: 1px solid black;
+    width: 240px;
+    height: 320px;
+    margin: 10px;
+    border-radius: 4px;
+  }
+  
+  .product img {
+    width: 160px;
+    height: 160px;
+  }
+  

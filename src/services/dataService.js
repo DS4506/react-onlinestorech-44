@@ -9,7 +9,7 @@ let catalog = [
     {
         "title":"MotorCycle",
         "Catagory":"SportsBike",
-        "price": 20.000,
+        "price": 2000.00,
         "image":"bike.PNG",
         "_id":"2",
     },
