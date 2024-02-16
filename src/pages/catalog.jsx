@@ -20,13 +20,11 @@ function Catalog() {
   }
 
   return (
-    <div>
+    <div className="catalog">
       <h1>Here look at my {productState.length} amazing products</h1>
       <div className="products-container">
         {productState.map((product) => (
-          <div className="products" key={product._id}>
-            <Products data={product} />
-          </div>
+            <Products key={product._id} data={product} />
         ))}
       </div>
     </div>

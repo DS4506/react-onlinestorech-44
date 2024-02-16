@@ -5,7 +5,7 @@ import { useState } from "react";
 function QuanityPicker()
 {
     const[quantity,setQuantity] = useState (1);
-    // quantity = 10; this is what we dont want to do
+   
 
     
     function decrease(){
@@ -15,8 +15,7 @@ function QuanityPicker()
       setQuantity(value)
         console.log("Decreasing");
     }
-    //create the increase function
-
+   
     function increase(){
         if(quantity===1) return;
         let value = quantity + 1;
@@ -24,10 +23,11 @@ function QuanityPicker()
         console.log("Increase");
     }
     return(
-        <div className="quanityPicker">
-            <button disabled ={quantity===1} onClick={decrease}>-</button>
+        <div className="quantityPicker">
+            <button className="btn btn-sm btn-outline-info" disabled ={quantity===1} onClick={decrease}>-</button>
+            -
             <label>{quantity}</label>
-            <button onClick={increase}>+</button>
+            <button className="btn btn-sm btn-outline-info" onClick={increase}>+</button>            
         </div>
     );
 

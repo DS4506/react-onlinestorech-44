@@ -18,16 +18,3 @@ body {
     flex-wrap: wrap;
   }
   
-  .products {
-    border: 1px solid black;
-    width: 240px;
-    height: 320px;
-    margin: 10px;
-    border-radius: 4px;
-  }
-  
-  .product img {
-    width: 160px;
-    height: 160px;
-  }
-  
