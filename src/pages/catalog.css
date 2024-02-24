@@ -1,5 +1,6 @@
-/* App.css */
-
+.catalog{
+  background-color: orangered;
+}
 body {
     margin: 0;
     padding: 0;
@@ -16,5 +17,9 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+  }
+
+  .catalog h1{
+    color: yellow;
   }
   

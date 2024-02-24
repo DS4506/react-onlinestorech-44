@@ -1,7 +1,12 @@
 .home{
+    background-color: orangered;
 }
 .home h1{
-    color: orangered;
+    color: yellow;
     text-align: center;
 }
 
+.home img {
+    width: 700px; 
+    height:700px; 
+  }
