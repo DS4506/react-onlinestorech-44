@@ -5,7 +5,7 @@ import { useState } from "react";
 function Admin() {
   const [product, setProduct] = useState({
     title: "",
-    catagory: "",
+    category: "",
     price: "",
     image: "",
   });
@@ -28,7 +28,7 @@ function Admin() {
   function clearForm() {
     setProduct({
       title: "",
-      catagory: "",
+      category: "",
       price: "",
       image: "",
     });
@@ -52,11 +52,11 @@ function Admin() {
       </div>
 
       <div>
-        <label>Catagory</label>
+        <label>Category</label>
         <input
-          value={product.title}
+          value={product.category}
           onChange={handleInputChange}
-          name="catagory"
+          name="category"
           type="text"
           className="form-control"
         />
@@ -65,7 +65,7 @@ function Admin() {
       <div>
         <label>Price</label>
         <input
-          value={product.title}
+          value={product.price}
           onChange={handleInputChange}
           name="price"
           type="text"
@@ -76,7 +76,7 @@ function Admin() {
       <div>
         <label>Image</label>
         <input
-          value={product.title}
+          value={product.label}
           onChange={handleInputChange}
           name="image"
           type="text"

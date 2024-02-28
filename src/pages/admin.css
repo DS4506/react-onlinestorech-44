@@ -1,5 +1,5 @@
 .admin.page {
-    background: linear-gradient(to right, hsla(234, 95%, 46%, 0.911), #acb1b9);
+    background: linear-gradient(to right, hsla(0, 0%, 4%, 0.911), #acb1b9);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -28,14 +28,14 @@
     border: none;
     border-radius: 5px;
     padding: 8px;
-    background-color: red;
+    background-color: orangered;
     color: #fff;
     font-size: 16px;
   }
   
   .admin input.form-control:focus {
     outline: none;
-    background-color: yellow;
+    background-color: black;
   }
   
   .admin .btn-dark {
